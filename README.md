@@ -16,10 +16,6 @@ This repository contains the following files:
 
 README.md: This file, providing an overview of the project.
 
-flowers : Dataset the neural network was trained on.
-
-models: Directory containing the modified VGG11 and AlexNet models.
-
 train.py: Python Script to evaluate the models on any given data.
 
 predict.py: Python script to make predictions on new images.
