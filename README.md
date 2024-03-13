@@ -1,8 +1,8 @@
 # Flower-Classifier
-Preprocessing of Image Data
+##Preprocessing of Image Data
 To prepare the image data for optimal use in neural networks, the data was preprocessed. This involved resizing the images to a uniform size, normalizing the pixel values, and augmenting the dataset by applying random transformations such as rotation, flipping, and zooming.
 
-Modified Pre-Trained Models
+##Modified Pre-Trained Models
 To achieve high accuracy in classification, two pre-trained models were modified - VGG11 and AlexNet. The models were fine-tuned by updating the last fully connected layer to have 102 output units for the number of flower categories. The rest of the model was kept frozen to retain the pre-trained weights.
 
 Results
